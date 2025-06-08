@@ -16,7 +16,7 @@ function Login() {
   useEffect(() => {
     const bringUsers = async () => {
       try {
-        const response = await axios.get('persistent-bow-bangle.glitch.me/users');
+        const response = await axios.get('https://persistent-bow-bangle.glitch.me/users');
         setUsers(response.data);
         setLoading(false);
       } catch (error) {
