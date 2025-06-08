@@ -13,7 +13,7 @@ function Post() {
     const navigate = useNavigate();
 
     const fetchPosts = async () => {
-        const response = await axios.get('persistent-bow-bangle.glitch.me');
+        const response = await axios.get('persistent-bow-bangle.glitch.me/posts');
         setPosts(response.data);
     };
 
