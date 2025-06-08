@@ -1,0 +1,17 @@
+{
+  "users": [
+    {
+      "id": "wjs1232",
+      "pw": "dngur09@",
+      "name": "jacob"
+    }
+  ],
+  "posts": [
+    {
+      "id": "da98",
+      "title": "첫 블로그 글",
+      "content": "깃허브에 올리기 전 테스트 블로그 입니다.",
+      "author": "jacob"
+    }
+  ]
+}

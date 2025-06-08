@@ -1,0 +1,22 @@
+.detail-container {
+  padding: 2rem;
+  background-color: #f0f0f0;
+}
+
+.detail-container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.detail-container button {
+  background-color: #555;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.detail-container button:hover {
+  background-color: #333;
+}

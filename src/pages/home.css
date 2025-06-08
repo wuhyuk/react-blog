@@ -1,0 +1,21 @@
+.home-container {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 2rem;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.home-container button {
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.home-container button:hover {
+  background-color: #333;
+}
