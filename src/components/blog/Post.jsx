@@ -13,7 +13,7 @@ function Post() {
     const navigate = useNavigate();
 
     const fetchPosts = async () => {
-        const response = await axios.get('http://localhost:3001/posts');
+        const response = await axios.get('persistent-bow-bangle.glitch.me');
         setPosts(response.data);
     };
 
@@ -30,7 +30,7 @@ function Post() {
 
     const newPost = { title, content, author };
 
-    await axios.post('http://localhost:3001/posts', newPost);
+    await axios.post('persistent-bow-bangle.glitch.me', newPost);
     setTitle('');
     setContent('');
     setAuthor('');

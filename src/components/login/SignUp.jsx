@@ -20,7 +20,7 @@ function SignUp() {
 
   try {
       
-      const response = await axios.get('http://localhost:3001/users');
+      const response = await axios.get('persistent-bow-bangle.glitch.me');
       const isDuplicate = response.data.some(user => user.id === id);
       if (isDuplicate) {
         alert('이미 존재하는 아이디입니다.');
@@ -28,7 +28,7 @@ function SignUp() {
       }
       
       const userData = { id, pw, name };
-      await axios.post('http://localhost:3001/users', userData);
+      await axios.post('persistent-bow-bangle.glitch.me', userData);
       navigate('/');
     } catch (error) {
       alert('회원가입에 실패했습니다.');

@@ -13,7 +13,7 @@ function Detail() {
 
   useEffect(() => {
     const fetchPost = async () => {
-      const response = await axios.get(`http://localhost:3001/posts/${id}`);
+      const response = await axios.get(`persistent-bow-bangle.glitch.me${id}`);
       setPost(response.data);
     };
 

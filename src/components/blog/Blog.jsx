@@ -19,7 +19,7 @@ function Blog() {
     if (storedUser?.id && storedUser?.pw) {
       const fetchUserName = async () => {
         try {
-          const response = await axios.get('http://localhost:3001/users');
+          const response = await axios.get('persistent-bow-bangle.glitch.me');
           const users = response.data;
 
           const logInUser = users.find(
