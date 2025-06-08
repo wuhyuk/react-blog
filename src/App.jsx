@@ -10,14 +10,14 @@ import Detail from './components/blog/Detail';
 import './App.css';
 
 import { 
-  BrowserRouter, 
+  HashRouter, 
   Routes, 
   Route 
 } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
@@ -28,7 +28,7 @@ function App() {
         <Route path="/post" element={<Post />} />
         <Route path="/detail/:id" element={<Detail />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
