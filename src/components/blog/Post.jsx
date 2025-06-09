@@ -30,7 +30,7 @@ function Post() {
 
     const newPost = { title, content, author };
 
-    await axios.post('persistent-bow-bangle.glitch.me', newPost);
+    await axios.post('https://persistent-bow-bangle.glitch.me/posts', newPost, { headers: { 'Content-Type': 'application/json' }});
     setTitle('');
     setContent('');
     setAuthor('');

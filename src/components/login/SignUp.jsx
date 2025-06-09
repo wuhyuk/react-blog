@@ -28,7 +28,7 @@ function SignUp() {
       }
       
       const userData = { id, pw, name };
-      await axios.post('https://persistent-bow-bangle.glitch.me/users', userData);
+      await axios.post('https://persistent-bow-bangle.glitch.me/users', userData, { headers: { 'Content-Type': 'application/json' }});
       navigate('/');
     } catch (error) {
       alert('회원가입에 실패했습니다.');
