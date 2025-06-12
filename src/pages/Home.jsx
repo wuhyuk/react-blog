@@ -12,6 +12,7 @@ function Home() {
       <button onClick={() => {navigate('/login')}}>Log in</button>
       <br />
       <button onClick={() => {navigate('/signup')}}>Sign up</button>
+      <br />
     </div>
   );
 }
