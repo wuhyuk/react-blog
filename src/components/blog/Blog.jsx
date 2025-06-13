@@ -53,7 +53,6 @@ function Blog() {
     navigate('/login');
   };
 
-  // 로딩 중일 때는 로딩 메시지 표시
   if (loading) {
     return <div>Loading user name...</div>;
   }
